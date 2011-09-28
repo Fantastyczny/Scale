@@ -1,4 +1,4 @@
-package src.gui;
+package gui;
 import com.trolltech.qt.gui.*;
 import com.trolltech.qt.opengl.*;
 

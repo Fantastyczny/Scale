@@ -1,4 +1,4 @@
-package src.gui;
+package gui;
 /**
  * 
  */
