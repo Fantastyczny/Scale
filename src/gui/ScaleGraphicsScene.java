@@ -1,4 +1,4 @@
-package gui;
+package src.gui;
 import com.trolltech.qt.core.QRectF;
 import com.trolltech.qt.core.Qt;
 import com.trolltech.qt.gui.*;
