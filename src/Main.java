@@ -30,7 +30,7 @@ public class Main {
         ground.createFixture(shape, 0f);
         
         BodyDef ballbd = new BodyDef();
-        ballbd.position = new Vec2(0.0f,0.0f);
+        ballbd.position = new Vec2(0.0f,10.0f);
         ballbd.type = BodyType.DYNAMIC;
         Body ball = w.createBody(ballbd);
         
@@ -41,7 +41,7 @@ public class Main {
     	
     	
         while(true){
-        	w.step(1, 0, 0);
+        	w.step(0.1f, 0, 0);
         	System.out.println(ball.getPosition());
         	try {
 				Thread.sleep(1000);
