@@ -11,9 +11,6 @@ import org.jbox2d.dynamics.BodyDef;
 import org.jbox2d.dynamics.World;
 import org.jbox2d.dynamics.BodyType;
 
-
-
-
 public class Main {
     public static void main(String args[]) {
     	Vec2 g = new Vec2(0.0f, -9.0f);
@@ -49,7 +46,7 @@ public class Main {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-        }
-        
-    }
+		}
+
+	}
 }

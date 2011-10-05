@@ -1,5 +1,6 @@
 package gui;
 
+import com.trolltech.qt.core.QTimerEvent;
 import com.trolltech.qt.gui.*;
 
 public class ScaleMainWindow extends QMainWindow{
@@ -7,6 +8,7 @@ public class ScaleMainWindow extends QMainWindow{
 	ScaleGraphicsView view;
 	public ScaleMainWindow()
 	{
+		super();
 		setWindowTitle("Scale");
 		setMenus();
 		setView();
@@ -28,5 +30,11 @@ public class ScaleMainWindow extends QMainWindow{
 		view = new ScaleGraphicsView(this);
 		this.setCentralWidget(view);
 	}
+    @Override
+    protected void timerEvent(QTimerEvent event) {
+    	System.out.println("lol");
+    	view.repaint();
+    }
+	
 
 }
