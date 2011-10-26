@@ -1,5 +1,5 @@
 package fantastyczny.scale;
 
-public class World {
+public class World extends Model{
 
 }
