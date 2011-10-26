@@ -24,13 +24,13 @@ public class Universe extends Model{
 	}
 
 	@Override
-	public void rigth() {
+	public void rigth(float dt) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void left() {
+	public void left(float dt) {
 		// TODO Auto-generated method stub
 		
 	}
